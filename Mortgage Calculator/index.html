@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Mortgage Calculator</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="heading" id="heading">
+      Mortgage Calculator
+    </h1>
+    <p class="description">All calculations will be done in GBP (£)</p>
+    <div class="input-container">
+      <input type="number" class="home-value" id="home-value" placeholder="Value of Property">
+      <input type="number" class="downpayment" id="downpayment" placeholder="Downpayment (Whole Num)">
+      <input type="number" class="interest-rate" id="interest-rate" placeholder="Interest Rate (%)">
+      <input type="number" class="duration" id="duration" placeholder="Duration of Repayment Yrs">
+    </div>
+    <div class="button-container">
+      <button class="btn" id="btn">Calculate</button>
+    </div>
+    <div class="calculation-container">
+      <p class="payment-monthly" id="payment-monthly"></p>
+      <p class="payment-annual" id="payment-annual"></p>
+    </div>
+    <a target="_blank" class="downpayment-calc" href="index-2.html"><mark>Downpayment Calculator</mark></a>
+  </div>
+  
+
+  <script src="index.js"></script>
+</body>
+</html>
