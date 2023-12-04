@@ -1,1 +1,8 @@
 # Mortgage-Calculator
+This is a small programming project which i have completed and tested. There are a total of 6 files which consist of the full program. This is testing my knowledge of basic HTML5, CSS3 AND JS. **The reason there is a video on how this works is because my code used a personal API key of mine, which for reasons has been changed in the code to the string "USE YOUR PERSONAL API KEY"**
+
+# How the Calculator Works
+THis calculator works by taking the user's input from the 4 valid input fields in the **Mortgage Calculator** and then uses JS to execute an API fetch to gather the relevant information which has been given via the value of the input fields. There is use of a try and catch statement to ensure that i am able to provide the user with a valuable message when there has been an error within the program. The statement await was also used when fetching the data via the API and then converting it into readable JSON because JS is synchronous therefore it executes code line by line, even when the previous line has not completed its execution, therefore, await was used to ensure that JS waits to execute that given line of code before moving onto the next. In turn, i had to change the function to async to ensure that the code which used await was asynchronous.
+
+# How to use the Files
+All you need to do is download the Mortgage Calculator folder. This will contain 6 files varying from index to index-2 all of type .html, .css and .js. Index is the first set of files which need to be executed when loading the program. This ensures a smooth execution and understanding on how the program works.
